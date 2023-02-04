@@ -1,8 +1,3 @@
-if(process.env.NODE_ENV !=="production"){
-    require('dotenv').config();
-}
-
-
 
 // importing
 const express = require('express');
