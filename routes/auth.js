@@ -49,7 +49,7 @@ router.post(
     } catch (e) {
       console.log(e.message);
       success = false;
-      res.status(500).json({success, error: "Some error occurred"});
+      res.status(500).json({success, e});
     }
   }
 );
